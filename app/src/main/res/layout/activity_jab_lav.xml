@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jab_lav">
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/arimo"
+                android:text="Ingredientes: "
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Aloe Vera líquido o cuatro o cinco hojas de la planta."
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Un recipiente de vidrio o cerámica"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="½ kilo de sosa cáustica"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="3 litros de aceite de oliva"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="3 litros de agua"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+            </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Aceite esencial con aroma"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Moldes"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/arimo"
+                    android:text="Instrucciones: "
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/chivo"
+                    android:text="Si el Aloe Vera no lo has comprado en una tienda y prefieres extraerlo directamente de la planta, debes abrir las hojas de Aloe por la mitad, de forma longitudinal y extraer la carne de hoja sin tocar la parte de la corteza de la misma, ya que esta parte más exterior resulta tóxica. A continuación, usa una batidora para dejar el Aloe Vera lo más fino posible."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/arimo"
+                    android:text="No olvides proteger tus manos con guantes y tus ojos con unas gafas. Prepara en el recipiente de vidrio o cerámica agua hirviendo y añade la sosa cáustica. Remueve bien la mezcla y tras pasados cinco minutos déjala enfriar durante una hora o dos."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/arimo"
+                    android:text="Cuando se haya enfriado la mezcla de la sosa cáustica, debes mezclarla con el Aloe Vera que preparaste e ir añadiendo el aceite de oliva. Añádelo poco a poco y ve removiendo de forma constante. El aceite debe estar a una temperatura media, por lo que puedes calentarlo previamente al fuego o bien introduciéndolo en el microondas. Añade al final el aceite esencial de aroma."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/arimo"
+                    android:text="Ya tienes tu mezcla completa, ahora sólo tienes que volcarla en los moldes y dejarla enfriar hasta que se solidifique, en este caso debes dejarlo reposar más tiempo que en las recetas de los jabones que te hemos explicado anteriormente, depende del tamaño de los moldes. No obstante, es fácil comprobar si ya está listo para desmoldar, basta echar un vistazo y presionar ligeramente con el dedo sobre el jabón."
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

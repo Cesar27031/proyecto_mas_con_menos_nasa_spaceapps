@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "intento de proyecto 2"

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gel_anti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/arimo"
+                android:text="Ingredientes: "
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="90 ml de alcohol etílico (etanol al 72%) Aproximadamente 13 cucharas soperas"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="3/4 de cucharadita de carbopool (pídelo así en cualquier farmacia)"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="1/4 de cucharada de glicerina pura"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="1/4 de cucharadita de trietanolamina (pídelo así en cualquier farmacia)"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Tazón de vidrio de 1 litro"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Colador de malla fina (colador de una tapa de garrafón de agua o un colador de cocina)"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Recipiente chico de vidrio o de plastico"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Agitador de globo o una cuchara limpia"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arimo"
+                        android:text="Envase de plástico con tapa de botón a presión con capacidad de 100 mililitros"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+
+                </TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="@font/arimo"
+                    android:text="Instrucciones:"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+
+
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/arimo"
+                android:text="1.- Coloca el colador de malla fina sobre una flanera o recipiente chico de vidrio, y vierte el carbopol sobre el colador."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="2.- Deshaz los grumos con ayuda de una cucharita a fin de pulverizarlo completamente."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.- Vierte el alcohol en el tazón."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="4.- Agita fuertemente con el globo mientras agregas poco a poco el carbopol."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="5.- Agrega la glicerina mientras agitas suavemente con el globo."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="6.- Cuando se haya disuelto por completo el carbopol y no se aprecien grumos, agrega la trietanolamina gota a gota, procurando no excederte, mientras agitas suavemente. En ese momento se formará el gel."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="7.- Vierte el alcohol en gel en la botella de plástico y tapa firmemente."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="8.- Si sientes la textura del gel un poco espesa, agrega alcohol hasta que consigas la consistencia deseada."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="9.- Lava tus manos utilizando agua y jabón líquido, frotándolas por lo menos durante 20 segundos. Enseguida enjuaga, seca y aplica el alcohol en gel. Utilizado de esta manera dará la mejor protección frente a bacterias, mohos y virus."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView19"
+                tools:layout_editor_absoluteX="18dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="Nota: si no tienes carbopool o trietanolamina  se puede usar solamente la glicerina."
+                android:textColor="#000000"
+                app:layout_constraintTop_toBottomOf="@+id/textView20"
+                tools:layout_editor_absoluteX="18dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

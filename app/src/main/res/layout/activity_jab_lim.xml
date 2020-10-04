@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jab_lim">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:text="Para hacer jabón artesanal de limón necesitas lo siguientes materiales: "
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo"
+                    android:text="500 g de glicerina"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo"
+                    android:text="Aroma de limón"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arimo"
+                android:text="La corteza de 2 limones ralladas"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arimo"
+                    android:text="Moldes"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/arimo"
+                android:text="Instrucciones: "
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="La preparación es muy similar al jabón de glicerina que explicamos anteriormente, así que en primer lugar deberemos derretir la glicerina con agua hirviendo. "
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="Por otro lado, deberemos rallar la corteza de dos limones y mezclarlos con la glicerina, añadiremos también el aroma de limón al final."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/arimo"
+                android:text="Verteremos la mezcla en los moldes y finalmente dejaremos que enfríe durante un día. Podemos acortar el tiempo de espera si tras dejarlo reposar un par de horas en el exterior, introducimos la mezcla en la nevera."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </TableLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

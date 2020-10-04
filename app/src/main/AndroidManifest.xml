@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intentodeproyecto2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo1"
+        android:label="+ ₵θπ -"
+        android:roundIcon="@mipmap/ic_logo1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".jab_liq_man"
+            android:label="Jabón Líquido"/>
+        <activity android:name=".jab_liq_rop"
+            android:label="Jabón Líquido para Ropa"/>
+        <activity android:name=".jab_aloe"
+            android:label="Jabón Lavanda"/>
+        <activity android:name=".jab_lav"
+            android:label="Jabón Aloe Vera"/>
+        <activity android:name=".jab_lim"
+            android:label="Jabón Limón"/>
+        <activity android:name=".jab_glic"
+            android:label="Jabón Glicerina"/>
+        <activity android:name=".gel_anti"
+            android:label="Gel Antibacterial"/>
+        <activity
+            android:name=".Recetario"
+            android:label="@string/recet" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
